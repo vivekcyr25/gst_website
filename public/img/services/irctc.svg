@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="#EFF6FF"/>
+  <rect x="22" y="28" width="76" height="64" rx="8" fill="#1E40AF"/>
+  <text x="60" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="900" fill="#FFFFFF">IRCTC</text>
+  <path d="M30 62h60" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <rect x="30" y="68" width="60" height="14" rx="3" fill="#FFFFFF" opacity="0.15"/>
+  <path d="M34 82h20v6H34zM52 82h20v6H52zM70 82h16v6H70z" fill="#FBBF24"/>
+  <circle cx="38" cy="88" r="3" fill="#1E293B"/>
+  <circle cx="78" cy="88" r="3" fill="#1E293B"/>
+</svg>

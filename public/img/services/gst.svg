@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="#EFF6FF"/>
+  <rect x="24" y="32" width="72" height="48" rx="8" fill="#1D4ED8"/>
+  <text x="60" y="64" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">GST</text>
+  <circle cx="60" cy="28" r="10" fill="#FBBF24"/>
+  <path d="M56 28l3 3 6-6" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

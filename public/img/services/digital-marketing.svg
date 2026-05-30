@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="24" fill="#FFF7ED"/>
+  <circle cx="60" cy="52" r="28" fill="#F97316" opacity="0.15"/>
+  <path d="M44 68V44l28 12-28 12z" fill="#F97316"/>
+  <path d="M72 44h8v8h-8zM84 56h8v8h-8zM72 68h8v8h-8z" fill="#FB923C" opacity="0.8"/>
+  <path d="M36 78c0-4 3-7 7-7h34c4 0 7 3 7 7v2H36v-2z" fill="#EA580C"/>
+  <text x="60" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#9A3412">DIGITAL</text>
+</svg>
