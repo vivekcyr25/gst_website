@@ -1,6 +1,7 @@
 import { Send, Facebook, Twitter } from 'lucide-react';
 import { FOOTER_LINKS } from '../data/siteData';
 import { FooterCTA } from './Header';
+import { asset } from '../utils/assets';
 import {
   FOOTER_MENU_ITEMS,
   scrollToSection,
@@ -24,7 +25,7 @@ export function Footer() {
               className="mb-6 block"
             >
               <img
-                src="/img/brand-icon.png"
+                src={asset('img/brand-icon.png')}
                 alt="GST Franchise Center"
                 className="h-16 w-auto brightness-0 invert"
               />

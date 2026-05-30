@@ -2,6 +2,7 @@ import { Mail, MapPin, Menu, Phone, Search, Sparkles, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useActiveSection } from '../hooks/useActiveSection';
 import { MARQUEE_TEXT } from '../data/siteData';
+import { asset } from '../utils/assets';
 import {
   NAV_ITEMS,
   scrollToSection,
@@ -84,7 +85,7 @@ export function Header() {
             className="flex shrink-0 items-center gap-3"
           >
             <img
-              src="/img/brand-icon.png"
+              src={asset('img/brand-icon.png')}
               alt="GST Franchise Center"
               className="h-11 w-auto sm:h-14"
             />

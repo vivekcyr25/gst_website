@@ -1,4 +1,5 @@
 import { PARTNER_SLIDES } from '../data/siteData';
+import { asset } from '../utils/assets';
 import { ImageCarousel } from './Carousel';
 import { SectionHeading } from './SectionHeading';
 
@@ -40,7 +41,7 @@ export function PromoBanner() {
   return (
     <section className="relative overflow-hidden">
       <img
-        src="/img/Frame 1.png"
+        src={asset('img/Frame 1.png')}
         alt="GST Franchise promotion"
         className="w-full object-cover"
       />

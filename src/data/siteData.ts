@@ -1,18 +1,20 @@
+import { asset } from '../utils/assets';
+
 export const MARQUEE_TEXT =
   'Trincop India Private Limited Now Offering E-shram Card Service, ई-श्रमिक कार्ड बनवाने अथवा अधिक जानकारी के लिए नजदीकी GST Franchise Center या 1800 102 5460 से संपर्क करें!';
 
 export const NAV_LINKS = ['Home', 'About', 'Services', "FAQ's", 'Contact Us'] as const;
 
 export const HERO_SLIDES = [
-  '/img/carousel-1.jpg',
-  '/img/carousel-2.jfif',
-  '/img/carousel-3.jpg',
+  asset('img/carousel-1.jpg'),
+  asset('img/carousel-2.jfif'),
+  asset('img/carousel-3.jpg'),
 ] as const;
 
 export const AWARD_IMAGES = [
-  '/img/award-1.jpeg',
-  '/img/award-2.jpeg',
-  '/img/award-3.jpeg',
+  asset('img/award-1.jpeg'),
+  asset('img/award-2.jpeg'),
+  asset('img/award-3.jpeg'),
 ] as const;
 
 export { PRIMARY_SERVICES, PRIMARY_SERVICE_IMAGES } from './primaryServices';
@@ -45,43 +47,43 @@ export const TESTIMONIALS = [
 ] as const;
 
 export const NATIONAL_G2C_IMAGES = [
-  '/img/g2c1.jpg',
-  '/img/g2c2.jpg',
-  '/img/g2c3.jpg',
-  '/img/g2c4.jpg',
-  '/img/g2c5.jpg',
-  '/img/g2c6.jpg',
-  '/img/g2c7.jpg',
-  '/img/g2c8.jpg',
-  '/img/g2c9.jpg',
+  asset('img/g2c1.jpg'),
+  asset('img/g2c2.jpg'),
+  asset('img/g2c3.jpg'),
+  asset('img/g2c4.jpg'),
+  asset('img/g2c5.jpg'),
+  asset('img/g2c6.jpg'),
+  asset('img/g2c7.jpg'),
+  asset('img/g2c8.jpg'),
+  asset('img/g2c9.jpg'),
 ] as const;
 
 export const STATE_G2C_IMAGES = [
-  '/img/state-1.png',
-  '/img/state-2.png',
-  '/img/state-3.png',
-  '/img/state-4.png',
-  '/img/state-5.png',
-  '/img/state-1.png',
-  '/img/state-6.png',
-  '/img/state-7.png',
-  '/img/state-8.png',
+  asset('img/state-1.png'),
+  asset('img/state-2.png'),
+  asset('img/state-3.png'),
+  asset('img/state-4.png'),
+  asset('img/state-5.png'),
+  asset('img/state-1.png'),
+  asset('img/state-6.png'),
+  asset('img/state-7.png'),
+  asset('img/state-8.png'),
 ] as const;
 
 export const PARTNER_SLIDES = [
   [
-    '/img/partner1.jpg',
-    '/img/partner2.jpg',
-    '/img/partner3.jpg',
-    '/img/partner-4.png',
-    '/img/partner-7.png',
+    asset('img/partner1.jpg'),
+    asset('img/partner2.jpg'),
+    asset('img/partner3.jpg'),
+    asset('img/partner-4.png'),
+    asset('img/partner-7.png'),
   ],
   [
-    '/img/partner-5.png',
-    '/img/partner-6.jpeg',
-    '/img/partner-7.png',
-    '/img/partner-9.png',
-    '/img/partner-4.png',
+    asset('img/partner-5.png'),
+    asset('img/partner-6.jpeg'),
+    asset('img/partner-7.png'),
+    asset('img/partner-9.png'),
+    asset('img/partner-4.png'),
   ],
 ] as const;
 

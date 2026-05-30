@@ -1,5 +1,6 @@
 import { Trophy } from 'lucide-react';
 import { AWARD_IMAGES } from '../data/siteData';
+import { asset } from '../utils/assets';
 import { SectionHeading } from './SectionHeading';
 
 function FlipAwardCard({ src, index }: { src: string; index: number }) {
@@ -31,7 +32,7 @@ export function Awards() {
     <section className="section-padding relative overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/img/awards-bg.jpg')" }}
+        style={{ backgroundImage: `url('${asset('img/awards-bg.jpg')}')` }}
       />
       <div className="absolute inset-0 bg-gst-navy/85" />
       <div className="absolute inset-0 bg-mesh-dark opacity-60" />

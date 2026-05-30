@@ -1,10 +1,11 @@
 import { Sparkles } from 'lucide-react';
 import { useState } from 'react';
 import { PRIMARY_SERVICES } from '../data/primaryServices';
+import { asset } from '../utils/assets';
 import { DigitalMarketingModal } from './DigitalMarketingModal';
 import { SectionHeading } from './SectionHeading';
 
-const FALLBACK_ICON = '/img/services/gst.svg';
+const FALLBACK_ICON = asset('img/services/gst.svg');
 
 function ServiceCard({
   name,

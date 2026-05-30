@@ -1,5 +1,6 @@
 import { Award, CheckCircle2, TrendingUp } from 'lucide-react';
 import { SectionHeading } from './SectionHeading';
+import { asset } from '../utils/assets';
 
 const HIGHLIGHTS = [
   { icon: Award, label: 'GSTN Approved', value: 'Govt. Certified' },
@@ -54,7 +55,7 @@ export function WhatWeDo() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-orange-400/20 to-cyan-400/20 blur-2xl" />
             <div className="relative overflow-hidden rounded-3xl border border-white/60 shadow-2xl">
               <img
-                src="/img/wwd.jfif"
+                src={asset('img/wwd.jfif')}
                 alt="What we do"
                 className="aspect-[4/3] w-full object-cover"
               />
