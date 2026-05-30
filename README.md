@@ -23,6 +23,12 @@ npm run build
 npm run preview
 ```
 
+## Live Demo (GitHub Pages)
+
+**https://vivekcyr25.github.io/gst_website/**
+
+Deployed automatically from `main` via GitHub Actions.
+
 ## Features
 
 - Responsive header with smooth-scroll navigation
